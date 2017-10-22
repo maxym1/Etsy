@@ -1,0 +1,334 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10471657850,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"John\" is viewing the landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 1
+                }
+              ],
+              "location": "Common.is_viewing_the_landing_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6290703179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 353242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Should be able to search for a product from the drop-down menu",
+        "description": "",
+        "id": "search;should-be-able-to-search-for-a-product-from-the-drop-down-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 503350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3626135583,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he mouses over Clothing \u0026 Shoes label on the landing page and click Womens from the drop down",
+            "match": {
+              "location": "Search.heMousesOverClothingShoesLabelOnTheLandingPageAndClickWomensFromTheDropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5288730410,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he selects Dresses from the women clothing down menu",
+            "match": {
+              "location": "Search.heSelectsDressesFromTheWomenClothingDownMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163342153,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he sees total number \"(381,309 items)\" of products displayed on the landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(381,309 items)",
+                  "offset": 22
+                }
+              ],
+              "location": "Search.heSeesTotalNumberOfProductsDisplayedOnTheLandingPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2858955745,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"John\" is viewing the landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 1
+                }
+              ],
+              "location": "Common.is_viewing_the_landing_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 198004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196721,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Should be able to search for a product from the icons",
+        "description": "",
+        "id": "search;should-be-able-to-search-for-a-product-from-the-icons",
+        "after": [
+          {
+            "result": {
+              "duration": 1108480,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258927178,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "he clicks Jewellery \u0026 Accessories label on the landing page",
+            "match": {
+              "location": "Search.he_clicks_Jewellery_Accessories_label_on_the_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10546532857,
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d61.0.3163.100)\n  (Driver info: chromedriver\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform\u003dWindows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10.43 seconds\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Maxwell-PC\u0027, ip: \u0027192.168.0.12\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_31\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir\u003dC:\\Users\\Maxwell\\AppData\\Local\\Temp\\scoped_dir19432_11182}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d61.0.3163.100, platform\u003dWIN8_1, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: fd6b17e254563de0b72c590ac049fc09\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat pages.SearchPage.click_side_nav(SearchPage.java:53)\r\n\tat Step_Definitions.Search.he_again_clicks_ALL_JEWELLERIES_ACCESSORIES_from_the_drop_down(Search.java:34)\r\n\tat ✽.And he again clicks ALL JEWELLERIES \u0026 ACCESSORIES from the drop down(Search.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "he again clicks ALL JEWELLERIES \u0026 ACCESSORIES from the drop down",
+            "match": {
+              "location": "Search.he_again_clicks_ALL_JEWELLERIES_ACCESSORIES_from_the_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "he clicks on Free Shipping",
+            "match": {
+              "location": "Search.he_clicks_on_Free_Shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "he clicks on Special offers",
+            "match": {
+              "location": "Search.he_clicks_on_Special_offers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "he selects item \"Handmade\" as item type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Handmade",
+                  "offset": 17
+                }
+              ],
+              "location": "Search.heSelectsItemAsItemType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "he selects price \"Under £20\" as price range",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Under £20",
+                  "offset": 18
+                }
+              ],
+              "location": "Search.heSelectsPriceAsPriceRange(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "he selects colour \"Gold\" as colour type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gold",
+                  "offset": 19
+                }
+              ],
+              "location": "Search.heSelectsColourAsColourType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "he selects ordering \"Customisable\" as ordering options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customisable",
+                  "offset": 21
+                }
+              ],
+              "location": "Search.heSelectsOrderingAsOrderingOptions(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "he sees a refine number \"(3,805 items)\" of items displayed on the landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "(3,805 items)",
+                  "offset": 25
+                }
+              ],
+              "location": "Search.heSeesARefineNumberOfItemsDisplayedOnTheLandingPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
